@@ -1,0 +1,23 @@
+{
+  "name": "vercel-express-app-test",
+  "version": "1.0.0",
+  "description": "Official guide - https://vercel.com/guides/using-express-with-vercel",
+  "main": "./api/index.js",
+  "scripts": {
+    "start": "node ./api",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voronianski/vercel-express-app-test.git"
+  },
+  "author": "dmitri.voronianski@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  }
+}
